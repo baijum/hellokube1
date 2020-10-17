@@ -41,6 +41,12 @@ spec:
           type: object
         status:
           description: GuestbookStatus defines the observed state of Guestbook
+          properties:
+            observedGeneration:
+              description: ObservedGeneration is the 'Generation' of the Guestbook
+                that was last processed by the controller.
+              format: int64
+              type: integer
           type: object
       type: object
   version: v1
