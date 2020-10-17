@@ -1,0 +1,7 @@
+domain: baiju.dev
+repo: github.com/baijum/hellokube1
+resources:
+- group: webapp
+  kind: Guestbook
+  version: v1
+version: "2"

@@ -1,0 +1,7 @@
+apiVersion: webapp.baiju.dev/v1
+kind: Guestbook
+metadata:
+  name: guestbook-sample
+spec:
+  # Add fields here
+  foo: bar
